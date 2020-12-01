@@ -1,0 +1,35 @@
+{
+  "name": "sublime-monokai",
+  "displayName": "Sublime Monokai",
+  "description": "It is a VSCode theme which is based off of sublime text's monokai.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "publisher": "AryanAhire",
+  "author": {
+    "name": "Aryan Ahire"
+  },
+  "homepage": "https://github.com/def-SpaceWar/sublime-monokai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/def-SpaceWar/sublime-monokai"
+  },
+  "bugs": {
+    "url": "https://github.com/def-SpaceWar/sublime-monokai/issues"
+  },
+  "icon": "icon.png",
+  "license": "GPLv3",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sublime Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sublime Monokai-color-theme.json"
+      }
+    ]
+  }
+}
