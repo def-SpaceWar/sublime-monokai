@@ -10,6 +10,22 @@ To get the full experience goto your settings.json by doing `Ctrl+Shift+P` and f
 },
 ```
 
+And you'll also need to make sure that in your settings.json to get the full sublime experience:
+
+```json
+"editor.lineHeight": yourFontSize + 4,
+```
+
+since
+
+<img src="./s1.png">
+
+Which is in the default sublime text settings and what makes it so beautiful.
+
+This is mine:
+
+<img src="./s2.png">
+
 Screenshot:
 
 <img src="./screenshot.png">
