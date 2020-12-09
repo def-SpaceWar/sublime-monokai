@@ -84,7 +84,10 @@
     "terminal.ansiBrightBlue": "#819aff", // hue shifted #AE81FF
     "terminal.ansiBrightMagenta": "#AE81FF",
     "terminal.ansiBrightCyan": "#66D9EF",
-    "terminal.ansiBrightWhite": "#f8f8f2"
+    "terminal.ansiBrightWhite": "#f8f8f2",
+    "editorGutter.addedBackground": "#A6E22E",
+    "editorGutter.modifiedBackground": "#E6DB74",
+    "editorGutter.deletedBackground": "#F83535"
   },
   "tokenColors": [
     {
