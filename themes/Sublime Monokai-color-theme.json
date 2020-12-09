@@ -431,10 +431,34 @@
       "settings": {
         "foreground": "#A6E22E"
       }
+    },
+    // C++ ONLY STUFF
+    {
+      "name": "C++ Pragma stuff",
+      "scope": "entity.other.attribute-name.pragma.preprocessor",
+      "settings": {
+        "foreground": "#f92672"
+      }
+    },
+    {
+      "name": "C++ Punctuation Separator",
+      "scope": "punctuation.separator.colon",
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
+    },
+    {
+      "name": "Public/Private",
+      "scope": "storage.type.modifier.access",
+      "settings": {
+        "foreground": "#f92672"
+      }
     }
   ],
   "semanticTokenColors": {
+    "function": "#66D9EF",
     "function.declaration": "#A6E22E",
-    "operatorOverloaded": "#f92672"
+    "operatorOverloaded": "#f92672",
+    "macro": "#AE81FF"
   }
 }
