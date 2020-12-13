@@ -21,6 +21,8 @@ since
 
 <img src="./s1.png">
 
+<br />
+
 <img src="./s3.png">
 
 Which is in the default sublime text settings and what makes it so beautiful.
