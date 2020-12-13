@@ -472,8 +472,9 @@
     }
   ],
   "semanticTokenColors": {
-    //"function": "#66D9EF",
+    "function": "#66D9EF",
     "function.declaration": "#A6E22E",
+    "variable": "#f8f8f2",
     "operatorOverloaded": "#f92672",
     "macro": "#AE81FF"
   }
