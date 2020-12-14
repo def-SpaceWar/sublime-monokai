@@ -38,7 +38,7 @@
     "titleBar.activeBackground": "#1b1b17",
     "statusBar.background": "#1b1b17",
     "statusBar.noFolderBackground": "#1b1b17",
-    "statusBar.debuggingBackground": "#75715E",
+    "statusBar.debuggingBackground": "#1b1b17",
     "activityBar.background": "#1b1b17",
     "activityBar.foreground": "#f8f8f2",
     "sideBar.background": "#1b1b17",
