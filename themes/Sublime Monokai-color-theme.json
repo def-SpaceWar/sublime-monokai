@@ -238,7 +238,7 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#66D9EF"
+        "foreground": "#A6E22E"
       }
     },
     {
@@ -469,6 +469,13 @@
       "settings": {
         "foreground": "#66D9EF"
       }
+    },
+    {
+      "name": "HTML onClick JS",
+      "scope": ["meta.brace.round.js", "punctuation.terminator.statement.js"],
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
     }
   ],
   "semanticTokenColors": {
@@ -477,6 +484,7 @@
     "member": "#66D9EF",
     "member.declaration": "#A6E22E",
     "variable": "#f8f8f2",
+    "variable.defaultLibrary": "#66D9EF",
     "operatorOverloaded": "#f92672",
     "macro": "#AE81FF"
   }
