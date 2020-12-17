@@ -91,7 +91,10 @@
   },
   "tokenColors": [
     {
-      "scope": ["meta.embedded", "source.groovy.embedded"],
+      "scope": [
+        "meta.embedded",
+        "source.groovy.embedded"
+      ],
       "settings": {
         "foreground": "#F8F8F2"
       }
@@ -122,14 +125,19 @@
     },
     {
       "name": "Reset JavaScript string interpolation expression",
-      "scope": ["meta.template.expression"],
+      "scope": [
+        "meta.template.expression"
+      ],
       "settings": {
         "foreground": "#F8F8F2"
       }
     },
     {
       "name": "Number",
-      "scope": ["constant.numeric", "numeric-suffix"],
+      "scope": [
+        "constant.numeric",
+        "numeric-suffix"
+      ],
       "settings": {
         "foreground": "#AE81FF"
       }
@@ -150,7 +158,10 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable", "punctuation.accessor"],
+      "scope": [
+        "variable",
+        "punctuation.accessor"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#F8F8F2"
@@ -402,10 +413,11 @@
       }
     },
     {
-      "name": "this.self",
+      "name": "this/self and some others relating to classes",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#FD971F"
+        "foreground": "#FD971F",
+        "fontStyle": "italic"
       }
     },
     // PYTHON ONLY STUFF
@@ -458,7 +470,10 @@
     },
     {
       "name": "Function Definition",
-      "scope": ["entity.name.function.definition", "meta.definition"],
+      "scope": [
+        "entity.name.function.definition",
+        "meta.definition"
+      ],
       "settings": {
         "foreground": "#A6E22E"
       }
@@ -472,7 +487,10 @@
     },
     {
       "name": "HTML onClick JS",
-      "scope": ["meta.brace.round.js", "punctuation.terminator.statement.js"],
+      "scope": [
+        "meta.brace.round.js",
+        "punctuation.terminator.statement.js"
+      ],
       "settings": {
         "foreground": "#f8f8f2"
       }
@@ -481,10 +499,13 @@
   "semanticTokenColors": {
     "function": "#66D9EF",
     "function.declaration": "#A6E22E",
-    "member": "#66D9EF",
-    "member.declaration": "#A6E22E",
+    "method": "#66D9EF",
+    "method.declaration": "#A6E22E",
     "variable": "#f8f8f2",
-    "variable.defaultLibrary": "#66D9EF",
+    "variable.defaultLibrary": {
+      "fontStyle": "italic",
+      "foreground": "#66D9EF"
+    },
     "operatorOverloaded": "#f92672",
     "macro": "#AE81FF"
   }
