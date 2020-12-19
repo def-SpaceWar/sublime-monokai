@@ -30,7 +30,8 @@
     "progressBar.background": "#75715E",
     "badge.background": "#1b1b17",
     "badge.foreground": "#f8f8f2",
-    "editorLineNumber.foreground": "#90908a",
+    "editorLineNumber.foreground": "#90918B",
+    "editorLineNumber.activeForeground": "#90918B",
     "panelTitle.activeForeground": "#f8f8f2",
     "panelTitle.activeBorder": "#75715E",
     "panelTitle.inactiveForeground": "#75715E",
@@ -87,7 +88,8 @@
     "terminal.ansiBrightWhite": "#f8f8f2",
     "editorGutter.addedBackground": "#A6E22E",
     "editorGutter.modifiedBackground": "#E6DB74",
-    "editorGutter.deletedBackground": "#F83535"
+    "editorGutter.deletedBackground": "#F83535",
+    "editorGutter.background": "#282923",
   },
   "tokenColors": [
     {

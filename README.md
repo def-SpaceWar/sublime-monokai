@@ -14,7 +14,7 @@ And you'll also need to make sure that in your settings.json to get the full sub
 
 ```json
 "editor.lineHeight": yourFontSize + 4,
-"editor.renderLineHighlight": "none",
+"editor.renderLineHighlight": "gutter",
 ```
 
 since
