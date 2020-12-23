@@ -13,23 +13,10 @@ To get the full experience goto your settings.json by doing `Ctrl+Shift+P` and f
 And you'll also need to make sure that in your settings.json to get the full sublime-like experience:
 
 ```json
-"editor.lineHeight": yourFontSize + 4,
+"window.zoomLevel": 1.5,
+"editor.lineHeight": yourFontSize + 2,
 "editor.renderLineHighlight": "gutter",
 ```
-
-since
-
-<img src="./s1.png">
-
-<br />
-
-<img src="./s3.png">
-
-Which is in the default sublime text settings and what makes it so beautiful.
-
-This is mine:
-
-<img src="./s2.png">
 
 Screenshot:
 
