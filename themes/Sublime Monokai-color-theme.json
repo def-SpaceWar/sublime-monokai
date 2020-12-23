@@ -139,10 +139,17 @@
       "name": "Number",
       "scope": [
         "constant.numeric",
-        "numeric-suffix"
       ],
       "settings": {
         "foreground": "#AE81FF"
+      }
+    },
+    {
+      "name": "Numeric Suffix",
+      "scope": "numeric-suffix",
+      "settings": {
+        "foreground": "#66D9EF",
+        "fontStyle": "italic"
       }
     },
     {
