@@ -161,7 +161,7 @@
     },
     {
       "name": "User-defined constant",
-      "scope": "constant.character, constant.other",
+      "scope": "constant.character, constant.other, variable.other.constant",
       "settings": {
         "foreground": "#AE81FF"
       }
