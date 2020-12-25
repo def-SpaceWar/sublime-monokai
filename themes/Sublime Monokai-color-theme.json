@@ -22,14 +22,14 @@
     "editorCursor.foreground": "#f8f8f0",
     "editorWhitespace.foreground": "#71716B",
     "editorIndentGuide.background": "#464741",
-    "editorGroupHeader.tabsBackground": "#1b1b17",
+    "editorGroupHeader.tabsBackground": "#181915",
     "editorGroup.dropBackground": "#41433980",
-    "tab.inactiveBackground": "#414339",
-    "tab.border": "#1b1b17",
+    "tab.inactiveBackground": "#20211C",
+    "tab.border": "#181915",
     "tab.inactiveForeground": "#ccccc7", // needs to be bright so it's readable when another editor group is focused
     "widget.shadow": "#000000",
     "progressBar.background": "#75715E",
-    "badge.background": "#1b1b17",
+    "badge.background": "#181915",
     "badge.foreground": "#f8f8f2",
     "editorLineNumber.foreground": "#90918B",
     "editorLineNumber.activeForeground": "#90918B",
@@ -37,20 +37,21 @@
     "panelTitle.activeBorder": "#75715E",
     "panelTitle.inactiveForeground": "#75715E",
     "panel.border": "#414339",
-    "titleBar.activeBackground": "#1b1b17",
-    "statusBar.background": "#1b1b17",
-    "statusBar.noFolderBackground": "#1b1b17",
-    "statusBar.debuggingBackground": "#1b1b17",
-    "activityBar.background": "#1b1b17",
+    "titleBar.activeBackground": "#181915",
+    "statusBar.background": "#141411",
+    "statusBar.noFolderBackground": "#141411",
+    "statusBar.debuggingBackground": "#141411",
+    "statusBar.border": "#414349",
+    "activityBar.background": "#181915",
     "activityBar.foreground": "#f8f8f2",
-    "sideBar.background": "#1b1b17",
+    "sideBar.background": "#181915",
     "sideBarSectionHeader.background": "#282923",
     "pickerGroup.foreground": "#75715E",
     "input.background": "#414339",
     "inputOption.activeBorder": "#75715E",
     "focusBorder": "#75715E",
-    "editorWidget.background": "#1b1b17",
-    "debugToolBar.background": "#1b1b17",
+    "editorWidget.background": "#181915",
+    "debugToolBar.background": "#181915",
     "diffEditor.insertedTextBackground": "#66852880", // middle of #282923 and #a6e22e
     "diffEditor.removedTextBackground": "#90274A80", // middle of #282923 and #f92672
     "inputValidation.errorBackground": "#90274A", // middle of #282923 and #f92672
@@ -66,8 +67,8 @@
     "editorGroup.border": "#414339",
     "peekView.border": "#75715E",
     "peekViewEditor.background": "#282923",
-    "peekViewResult.background": "#1b1b17",
-    "peekViewTitle.background": "#1b1b17",
+    "peekViewResult.background": "#181915",
+    "peekViewTitle.background": "#181915",
     "peekViewResult.selectionBackground": "#414339",
     "peekViewResult.matchHighlightBackground": "#75715E",
     "peekViewEditor.matchHighlightBackground": "#75715E",
@@ -521,6 +522,7 @@
       "foreground": "#66D9EF"
     },
     "operatorOverloaded": "#f92672",
-    "macro": "#AE81FF"
+    "macro": "#AE81FF",
+    "variable.readonly": "#AE81FF"
   }
 }
