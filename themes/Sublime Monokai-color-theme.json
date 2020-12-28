@@ -510,6 +510,20 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "Flutter Classes",
+      "scope": "support.class.dart",
+      "settings": {
+        "foreground": "#66D9EF",
+      }
+    },
+    {
+      "name": "Flutter Functions",
+      "scope": "entity.name.function.dart",
+      "settings": {
+        "foreground": "#66D9EF",
+      }
+    }
   ],
   "semanticTokenColors": {
     "function": "#66D9EF",
