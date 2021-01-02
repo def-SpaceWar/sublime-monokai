@@ -2,7 +2,7 @@
   "name": "sublime-monokai",
   "displayName": "Sublime Monokai",
   "description": "It is a VSCode theme which is based off of sublime text's monokai.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "engines": {
     "vscode": "^1.51.0"
   },
@@ -26,9 +26,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sublime Monokai",
+        "label": "Sublime Monokai Default",
         "uiTheme": "vs-dark",
-        "path": "./themes/Sublime Monokai-color-theme.json"
+        "path": "./themes/Sublime Monokai Default-color-theme.json"
+      },
+      {
+        "label": "Sublime Monokai Adaptive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sublime Monokai Adaptive-color-theme.json"
       }
     ]
   }

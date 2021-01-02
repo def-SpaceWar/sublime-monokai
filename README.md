@@ -18,6 +18,10 @@ And you'll also need to make sure that in your settings.json to get the full sub
 "editor.renderLineHighlight": "gutter",
 ```
 
-Screenshot:
+Screenshot (Adaptive):
 
-<img src="./screenshot.png">
+<img src="./screenshot1.png">
+
+Screenshot (Default):
+
+<img src="./screenshot2.png">
