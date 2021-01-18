@@ -533,6 +533,34 @@
       "settings": {
         "foreground": "#66D9EF",
       }
+    },
+    // GoLang Settings
+    {
+      "name": "Go Function Definitions",
+      "scope": [
+        "entity.name.function.go"
+      ],
+      "settings": {
+        "foreground": "#A6E22E",
+      }
+    },
+    {
+      "name": "Go Function Calls",
+      "scope": "support.function.go",
+      "settings": {
+        "foreground": "#66D9EF",
+      }
+    },
+    {
+      "name": "Go Keywords",
+      "scope": [
+        "keyword.function.go",
+        "keyword.struct.go",
+        "keyword.interface.go"
+      ],
+      "settings": {
+        "foreground": "#66D9EF",
+      }
     }
   ],
   "semanticTokenColors": {
