@@ -2,7 +2,7 @@
   "name": "sublime-monokai",
   "displayName": "Sublime Monokai",
   "description": "It is a VSCode theme which is based off of sublime text's monokai.",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "engines": {
     "vscode": "^1.51.0"
   },

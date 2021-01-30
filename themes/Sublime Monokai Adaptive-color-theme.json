@@ -424,47 +424,6 @@
         "fontStyle": "italic"
       }
     },
-    // PYTHON ONLY STUFF
-    {
-      "name": "Python Func Params",
-      "scope": [
-        "punctuation.definition.arguments.begin.python",
-        "punctuation.definition.arguments.end.python",
-        "meta.function-call.arguments.python"
-      ],
-      "settings": {
-        "foreground": "#f8f8f2"
-      }
-    },
-    {
-      "name": "Python Function",
-      "scope": "entity.name.function.python",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "Python Magic Functions",
-      "scope": "support.function.magic",
-      "settings": {
-        "foreground": "#66D9EF"
-      }
-    },
-    // C++ ONLY STUFF
-    {
-      "name": "C++ Pragma stuff",
-      "scope": "entity.other.attribute-name.pragma.preprocessor",
-      "settings": {
-        "foreground": "#f92672"
-      }
-    },
-    {
-      "name": "C++ Punctuation Separator",
-      "scope": "punctuation.separator.colon",
-      "settings": {
-        "foreground": "#f8f8f2"
-      }
-    },
     {
       "name": "Public/Private",
       "scope": "storage.type.modifier.access",
@@ -522,6 +481,75 @@
       "scope": "entity.name.function.dart",
       "settings": {
         "foreground": "#66D9EF",
+      }
+    },
+    // PYTHON ONLY STUFF
+    {
+      "name": "Python Func Params",
+      "scope": [
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        "meta.function-call.arguments.python"
+      ],
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
+    },
+    {
+      "name": "Python Function",
+      "scope": "entity.name.function.python",
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "Python Magic Functions",
+      "scope": "support.function.magic",
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "Python Async Keyword",
+      "scope": "storage.type.function.async",
+      "settings": {
+        "foreground": "#f92672",
+      }
+    },
+    {
+      "name": "Python Decorator @",
+      "scope": "punctuation.definition.decorator.python",
+      "settings": {
+        "foreground": "#f92672",
+      }
+    },
+    {
+      "name": "Python .",
+      "scope": "punctuation.separator.period.python",
+      "settings": {
+        "foreground": "#f8f8f2",
+      }
+    },
+    {
+      "name": "Python Decorator Function",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#66D9EF",
+      }
+    },
+    // C++ ONLY STUFF
+    {
+      "name": "C++ Pragma stuff",
+      "scope": "entity.other.attribute-name.pragma.preprocessor",
+      "settings": {
+        "foreground": "#f92672"
+      }
+    },
+    {
+      "name": "C++ Punctuation Separator",
+      "scope": "punctuation.separator.colon",
+      "settings": {
+        "foreground": "#f8f8f2"
       }
     },
     // GoLang Settings
