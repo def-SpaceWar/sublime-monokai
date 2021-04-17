@@ -579,6 +579,42 @@
       "settings": {
         "foreground": "#66D9EF",
       }
+    },
+    // C# Settings
+    {
+      "name": "C# Namespaces",
+      "scope": "entity.name.type.namespace.cs",
+      "settings": {
+        "foreground": "#fff"
+      }
+    },
+    {
+      "name": "C# Types",
+      "scope": [
+        "keyword.type.cs",
+        "keyword.other.get.cs",
+        "keyword.other.set.cs",
+        "keyword.other.namespace.cs",
+        "keyword.other.class.cs",
+      ],
+      "settings": {
+        "foreground": "#66D9Ef",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Function Definitions",
+      "scope": "entity.name.function.cs",
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "C# Parameters",
+      "scope": "entity.name.variable.parameter.cs",
+      "settings": {
+        "foreground": "#FD971F"
+      }
     }
   ],
   "semanticTokenColors": {
