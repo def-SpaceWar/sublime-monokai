@@ -35,6 +35,28 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Sublime Monokai Adaptive-color-theme.json"
       }
+    ],
+    "languages": [
+      {
+        "id": "csharp",
+        "extensions": [
+          ".cs",
+          ".csx",
+          ".cake"
+        ],
+        "aliases": [
+          "C# Sublime Colorizer",
+          "csharp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "csharp",
+        "scopeName": "source.cs",
+        "path": "./syntaxes/csharp.tmLanguage.json"
+      }
     ]
   }
 }

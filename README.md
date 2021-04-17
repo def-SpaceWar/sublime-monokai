@@ -25,3 +25,6 @@ Screenshot (Adaptive):
 Screenshot (Default):
 
 <img src="./screenshot2.png">
+
+This theme also bundles in this guys C# Syntax Highlighter:
+https://github.com/Maximetinu/Sublime-Text-Monokai-theme-for-Visual-Studio-Code

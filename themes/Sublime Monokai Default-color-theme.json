@@ -606,6 +606,7 @@
         "keyword.other.set.cs",
         "keyword.other.namespace.cs",
         "keyword.other.class.cs",
+        "keyword.other.struct.cs"
       ],
       "settings": {
         "foreground": "#66D9Ef",
@@ -624,6 +625,14 @@
       "scope": "entity.name.variable.parameter.cs",
       "settings": {
         "foreground": "#FD971F"
+      }
+    },
+    {
+      "name": "C# This Keyword",
+      "scope": "keyword.other.this.cs",
+      "settings": {
+        "foreground": "#FD971F",
+        "fontStyle": "italic"
       }
     }
   ],
