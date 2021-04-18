@@ -614,7 +614,8 @@
       "name": "C# Parameters",
       "scope": "entity.name.variable.parameter.cs",
       "settings": {
-        "foreground": "#FD971F"
+        "foreground": "#FD971F",
+        "fontStyle": "italic"
       }
     },
     {
@@ -623,6 +624,25 @@
       "settings": {
         "foreground": "#FD971F",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Inherit Class",
+      "scope": "inherit-class",
+      "settings": {
+        "foreground": "#A6E22E",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Attribute Bracket",
+      "scope": [
+        "punctuation.squarebracket-attribute.open.cs",
+        "punctuation.squarebracket-attribute.close.cs"
+      ],
+      "settings": {
+        "foreground": "#F92672",
+        "fontStyle": "bold"
       }
     }
   ],
