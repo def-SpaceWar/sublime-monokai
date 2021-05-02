@@ -556,7 +556,15 @@
       "name": "C++ Function Parentheses",
       "scope": [
         "punctuation.section.arguments.begin.bracket.round",
-        "punctuation.section.arguments.end.bracket.round"
+        "punctuation.section.arguments.end.bracket.round",
+        "punctuation.separator.delimiter",
+        "punctuation.section.block.begin.bracket.curly",
+        "punctuation.section.block.end.bracket.curly",
+        "punctuation.section.parens.begin.bracket.round",
+        "punctuation.section.parens.end.bracket.round",
+        "punctuation.definition.begin.bracket.square",
+        "punctuation.definition.end.bracket.square",
+        "storage.modifier.array.bracket.square"
       ],
       "settings": {
         "foreground": "#F8F8F2"
