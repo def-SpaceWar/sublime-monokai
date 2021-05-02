@@ -562,6 +562,16 @@
         "foreground": "#f8f8f2"
       }
     },
+    {
+      "name": "C++ Function Parentheses",
+      "scope": [
+        "punctuation.section.arguments.begin.bracket.round",
+        "punctuation.section.arguments.end.bracket.round"
+      ],
+      "settings": {
+        "foreground": "#F8F8F2"
+      }
+    },
     // GoLang Settings
     {
       "name": "Go Function Definitions",
