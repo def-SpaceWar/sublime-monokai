@@ -564,10 +564,18 @@
         "punctuation.section.parens.end.bracket.round",
         "punctuation.definition.begin.bracket.square",
         "punctuation.definition.end.bracket.square",
-        "storage.modifier.array.bracket.square"
+        "storage.modifier.array.bracket.square",
+        "punctuation.separator.dot-access"
       ],
       "settings": {
         "foreground": "#F8F8F2"
+      }
+    },
+    {
+      "name": "C++ Pointer Access",
+      "scope": "punctuation.separator.pointer-access",
+      "settings": {
+        "foreground": "#F92672"
       }
     },
     // GoLang Settings
